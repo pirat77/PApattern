@@ -6,7 +6,8 @@ public class Piranha extends Fish {
         this.movingPattern = "plum arrghhh plum";
     }
 
-    public String move(){
+    @Override
+    public String moves(){
         return swim();
     }
 
