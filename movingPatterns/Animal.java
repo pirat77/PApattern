@@ -1,7 +1,12 @@
 package org.example.aniamalModels.movingPatterns;
 
 public abstract class Animal {
-
-    public abstract String breathing();
-    public abstract String moves();
+    protected String movingPattern;
+    protected String breathingPattern;
+    public String breathing(){
+        return this.breathingPattern;
+    };
+    public String moves(){
+        return this.movingPattern;
+    };
 }
